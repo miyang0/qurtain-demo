@@ -14,7 +14,7 @@
         <span><img src="images/logo Qur.png" alt=""> <img class="imag" src="images/logo Qur darkmode.png" alt=""></span>
         <div class="side">
             <a href="index.html">Home</a>
-            <a href="#">Informatie</a>
+            <a href="info.html">Informatie</a>
             <a href="contact.html">Contact</a>
             <button id="theme-switch" type="button" aria-label="Change themes">
                 <!--aria labels worden gebruikt om context te geven wanneer er geen context is. in dit geval worden icons gebruikt, dus de aria label geeft aan wat de button doet waardoor het voor schermlezers bijv makkelijker wordt om te definieren.-->
@@ -31,39 +31,44 @@
             </button>
         </div>
     </nav>
-  
+
+    <header>
+           
+                <h1>Contact</h1>
+
+
+            <div class="contactForm">
+            <p>
+                Heb je een vraag, wil je persoonlijk advies of ben je benieuwd wat Qurtain voor jouw interieur kan betekenen? <br> Ons team staat klaar om samen met jou slimme en stijlvolle oplossingen te vinden die zorgen voor meer comfort, gemak en sfeer in huis.
+
+                Je kunt ons bellen, een bericht sturen of het contactformulier invullen. We nemen zo snel mogelijk contact met je op. Slimme gordijnen. Slimme service. Dat is Qurtain.
+            </p>
+            </div>
+    </header>
+
+
     <main>
         <section class="center-container">
             <div class="title">
-                <h1>Contact form</h1>
+                <h2>Formulier</h2>
             </div>
+
+
             <div class="form">
                 <div class="nameMail">
-                    <div>
                         <label for="firstName">Voornaam</label>
-                        <input type="text" id="firstName" name="firstName" required placeholder="Voornaam...">
-                    </div>
-                    <div>
+                        <input type="text" id="firstName" name="firstName" required placeholder="Vul hier uw voornaam in...">
+                </div>
+                <div class="nameMail">    
                         <label for="lastName">Achternaam</label>
-                        <input type="text" id="lastName" name="lastName" required placeholder="Achternaam...">
-                    </div>
+                        <input type="text" id="lastName" name="lastName" required placeholder="Vul hier uw achternaam in......">   
                 </div>
                 <div class="email">
                     <label for="email">E-mail</label>
 
                     <input type="email" id="email" name="email" required placeholder="Vul hier uw e-mailadres in...">
                 </div>
-                <div class="livingplaceBirthdate">
-                    <div>
-                        <label for="living-place">Adres</label>
-                        <input type="text" id="living-place" name="living-place" required
-                            placeholder="Vul hier uw adres in..." />
-                    </div>
-                    <div>
-                        <label for="birthdate">Geboortedatum</label>
-                        <input type="date" id="birthdate" name="birthdate" required>
-                    </div>
-                </div>
+               
                 <div class="subject">
 
                     <label for="subject">Onderwerp</label>
@@ -71,15 +76,16 @@
                         <option value="" disabled selected>Kies uw onderwerp</option>
                         <option value="partnership">Partnership</option>
                         <option value="contact">Contact</option>
-                        <option value="support">Clienten support</option>
+                        <option value="support">Hulp</option>
+                        <option value="appointment">Afspraak</option>
                     </select>
                 </div>
                 <div class="question">
-                    <label for="question">Uw vraag</label>
+                    <label for="question">Stel hier uw vraag</label>
                     <textarea id="question" name="question"> </textarea>
                 </div>
                 <div class="newsletter">
-                    <label> Wilt u inschrijven voor onze nieuwsberichten?</label>
+                    <label>Inschrijven voor nieuwsbrief?</label>
                     <div>
                         <input type="radio" id="yes" name="news" value="yes" />
                         <label for="yes">Ja</label>
@@ -89,12 +95,14 @@
                     </div>
                 </div>
                 <div class="termsConditions">
-                    <input type="checkbox" id="termsAndConditions" name="termsAndConditions"
-                        value="termsAndConditions" />
-                    <label for="termsAndConditions">Ik zeg ja tegen de terms & conditions</label>
+                    <div>
+                    <input type="checkbox" id="termsAndConditions" name="termsAndConditions" value="termsAndConditions" />
+                    <label for="termsAndConditions">Ik ga akkoord met de algemene voorwaarden</label>
                 </div>
 
-                <button type="submit" name="submit-button">Inleveren</button>
+                <div>
+                    <button type="submit">Verzenden</button>
+                </div>
 
             </div>
         </section>
@@ -119,7 +127,6 @@
 
     <footer>
         <p>Copyright © 2025 Qurtain | Alle rechten voorbehouden | Concept & realisatie: Qurtain.</p>
-        <p></p>
     </footer>
 </body>
 
