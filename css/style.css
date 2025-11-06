@@ -838,8 +838,19 @@ main h2 {
     }
 
 
+    .doel {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
     .doel p {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        width: 1000px;
+    }
+
+    .install {
+        padding-bottom: 50px;
     }
 }
 
